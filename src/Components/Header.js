@@ -10,10 +10,10 @@ function Header() {
   };
 
   return (
-    <header className="container mx-auto md:flex justify-between py-2 max-width">
-      <div className="flex justify-between items-center py-2 md:py-10">
+    <header className="container mx-auto md:flex justify-between py-1 max-width"> {/* Reduced py from 2 to 1 */}
+      <div className="flex justify-between items-center py-1 md:py-5"> {/* Reduced py from 2 to 1 and md:py from 10 to 5 */}
         <a href="/" onClick={() => window.location.reload()}>
-          <img className="w-14 rounded-full" src={logos.logogradient} alt="logo" />
+          <img className="w-12 rounded-full" src={logos.logogradient} alt="logo" /> {/* Reduced width from w-14 to w-12 */}
         </a>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
@@ -34,7 +34,7 @@ function Header() {
         </div>
       </div>
       <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
-        <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
+        <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-4 md:mr-10"> {/* Reduced space-x-5 to space-x-4 */}
           <li className="pb-1 md:pb-0">
             <NavLink to="/" onClick={toggleClass}>
               Home
@@ -61,7 +61,7 @@ function Header() {
             </NavLink>
           </li>
         </ul>
-        <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
+        <ul className="flex justify-evenly items-center my-2 md:my-0 md:space-x-4 md:mr-5"> {/* Reduced my-5 to my-2 and space-x-5 to space-x-4 */}
           <li>
             <a href={twitter} target="_blank" rel="noreferrer noopener">
               {/* Twitter SVG */}

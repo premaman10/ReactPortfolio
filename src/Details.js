@@ -32,20 +32,17 @@ import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
-// Logos
 export const logos = {
   logogradient: logogradient,
   logo: logo,
 };
 
-// Enter your Personal Details here
 export const personalDetails = {
   name: "Lalit Verma ",
   tagline: "Passionate Educator,Enthusiastic Mentor, Empowering Futures:A Journey of Learning and Discovery!",
   img: profile,
   about: `I am an Assistant Professor at Lovely Professional University (LPU), where I am dedicated to fostering an engaging and innovative learning environment for my students. I hold a Bachelor of Technology (B.Tech) degree from IMS Engineering College, Ghaziabad, and a Master of Technology (M.Tech) from Amity University. My academic journey has equipped me with a strong foundation in engineering principles and a passion for teaching and research. I strive to inspire my students to explore their potential, think critically, and embrace the challenges of the ever-evolving technological landscape. With a commitment to academic excellence, I actively engage in research and development projects, aiming to contribute to the advancement of knowledge in my field.`,
 };
-// Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/lalit-verma-127835202",
   github: "https://www.github.com/",
@@ -53,7 +50,6 @@ export const socialMediaUrl = {
   instagram: "https://www.instagram.com/",
 };
 
-// Enter your Work Experience here
 export const workDetails = [
   {
     Position: "Assistant Professor",

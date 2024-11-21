@@ -13,8 +13,8 @@ function Footer() {
           Prem Aman
         </a>{" "}
         with
-        <span className="text-gradient font-medium"> Love</span> &
-        <span className="text-gradient font-medium"> Respect</span>
+        <span className="text-gradient font-medium"> Regards </span> 
+        {/* <span className="text-gradient font-medium"> Respect</span> */}
       </p>
     </footer>
   );
